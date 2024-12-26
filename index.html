@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Management with Icons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Management</h1>
+        </header>
+        <main>
+            <!-- Форма реєстрації -->
+            <section class="form">
+                <h2>Register</h2>
+                <input type="text" id="regUsername" placeholder="Username" />
+                <input type="password" id="regPassword" placeholder="Password" />
+                <input type="text" id="regIconUrl" placeholder="Icon URL (optional)" />
+                <button class="btn primary" onclick="register()">Register</button>
+            </section>
+
+            <!-- Список користувачів -->
+            <section id="usersList" class="users">
+                <h2>Users</h2>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
